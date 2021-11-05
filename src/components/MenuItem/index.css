@@ -1,0 +1,11 @@
+.menuItem {
+  padding-left   : var(--menu-padding-left);
+  padding-right  : var(--menu-padding-right);
+  padding-top    : 15px;
+  padding-bottom : 15px;
+  display        : flex;
+  align-items    : center;
+}
+.menuItem:not(:last-child) {margin-bottom : 30px;}
+.menuItem-icon {}
+.menuItem-title {padding-left : 10px;}
