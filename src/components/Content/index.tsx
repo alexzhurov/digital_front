@@ -1,8 +1,11 @@
 import './index.css';
 
-function Content() {
+
+function Content({ className }: { className: string }) {
     return (
-        <div>content</div>
+        <div className={className}>
+            Content/index.tsx
+        </div>
     );
 }
 

@@ -1,8 +1,11 @@
 import './index.css';
 
-function Header() {
+
+function Header({ className }: { className: string }) {
     return (
-        <div>content</div>
+        <div className={className}>
+            Header/index.tsx
+        </div>
     );
 }
 

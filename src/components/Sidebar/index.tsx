@@ -1,8 +1,9 @@
 import './index.css';
 
-function Sidebar() {
+
+function Sidebar({ className }: { className: string }) {
     return (
-        <div>content</div>
+        <div className={className}>Sidebar/index.tsx</div>
     );
 }
 
