@@ -9,19 +9,15 @@ import './App.css';
 
 function App() {
     return (
-        <div>
-            <img src={logo} className="App-logo" alt="logo"/>
+        <div className="l-wrapper">
+            <Menu className="l-menu"/>
+            <div className="l-center">
+                <Header className="l-header"/>
+                <Content className="l-content"/>
+            </div>
+            <Sidebar className="l-sidebar"/>
         </div>
     );
 }
 
 export default App;
-
-/*
-* menu
-* header
-* sidebar
-*
-* content
-* preloader
-* */

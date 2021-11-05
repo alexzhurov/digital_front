@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto|Source+Sans+Pro:regular,bold');
+:root {
+  --accent-blue        : #0085FF;
+  --accent-green       : #41bfb0;
+  --accent-green-light : #62bd6b;
+  --accent-purple      : #5241BF;
+  --accent-orange      : #FF7A00;
+  --accent-red         : #C50140;
+  --accent-gray-900    : #2a2a2a;
+  --accent-gray-700    : #565555;
+  --accent-gray-500    : #999999;
+  --accent-gray-300    : #bbbbbb;
+  --accent-gray-100    : #ccd4db;
+
+  --header-height      : 56px;
+  --menu-padding-left  : 36px;
+  --menu-padding-right : 20px;
+}
+body {
+  font-family : "Source Sans Pro";
+}
+
+.l-wrapper {
+  display : flex;
+}
+.l-menu {
+  max-width : 360px;
+  min-width : 360px;
+}
+.l-center {
+  width          : 100%;
+  display        : flex;
+  flex-direction : column;
+}
+.l-header {}
+.l-content {}
+.l-sidebar {
+  max-width : 320px;
+  min-width : 320px;
+}
