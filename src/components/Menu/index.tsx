@@ -10,12 +10,11 @@ import trendingUp   from './../../icons/trending-up.svg';
 
 
 function Menu({ className }: { className: string }) {
-    const lists = [
+    const list = [
         { title: 'TOP-10 Twitter Dapplets', link: { name: 'Me', url: '' } },
         { title: 'Best Financial dapplets by Jack', link: { name: 'Jack', url: '' } },
         { title: 'TOP-10 Twitter Dapplets', link: { name: 'Me', url: '' } }
     ];
-
 
     return (
         <div className={`menu ${className}`}>
@@ -26,7 +25,7 @@ function Menu({ className }: { className: string }) {
                     <img src={arrowLeft} alt="navigation"/>
                 </div>
             </div>
-            {
+
             <div className="menuNav">
                 <MenuItem icon={hexagon} title='All Dapplets'/>
                 <MenuItem icon={heart} title='Editor’s Choice'/>
@@ -34,16 +33,16 @@ function Menu({ className }: { className: string }) {
                 <MenuItem icon={users} title='Social Networks'/>
                 <MenuItem icon={trendingUp} title='Financial Dapplets'/>
             </div>
-}
 
-            {lists.length && (
-                <div className="lists">
-                    <div className="lists-title">My lists</div>
-                    {lists.map(({ title, link }) => (
-                        <div className="lists-item">
+            {/*My lists*/}
+            {list.length && (
+                <div className="list">
+                    <div className="list-title">My lists</div>
+                    {list.map(({ title, link }) => (
+                        <div className="list-item">
                             {title}
                             {link.name && (
-                                <span> ({<a className="lists-link" href={link.url}>{link.name}</a>})</span>
+                                <span> ({<a className="list-link" href={link.url}>{link.name}</a>})</span>
                             )}
                         </div>
                     ))}

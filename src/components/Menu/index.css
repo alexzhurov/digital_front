@@ -27,20 +27,19 @@
   padding-bottom : 20px;
 }
 
-.lists {
+.list {
   margin-top       : 1px;
-  background-color : yellow;
 }
-.lists-title,
-.lists-item {
+.list-title,
+.list-item {
   padding-left  : var(--menu-padding-left);
   padding-right : var(--menu-padding-right);
   padding-top   : 20px;
 }
-.lists-item:last-child {
+.list-item:last-child {
   padding-bottom : 20px;
 }
 
-.lists-title {font-weight : 600;}
-.lists-item {color : var(--accent-gray-700);}
-.lists-link {color : var(--accent-blue);}
+.list-title {font-weight : 600;}
+.list-item {color : var(--accent-gray-700);}
+.list-link {color : var(--accent-blue);}
