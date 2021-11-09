@@ -1,0 +1,20 @@
+.tag {
+  display       : flex;
+  align-items   : center;
+  padding       : 3px 3px 2px;
+  width         : fit-content;
+  border-radius : 4px;
+  color         : #fff;
+  /*Default margin*/
+  margin-bottom : 3px;
+  margin-right  : 3px;
+}
+.tag-purple {background-color : var(--accent-purple);}
+.tag-green {background-color : var(--accent-green);}
+
+.tag .cross svg {
+  width        : 10px;
+  height       : 10px;
+  margin-left  : 2px;
+  margin-right : 2px;
+}
